@@ -1,0 +1,58 @@
+.image_flex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items:flex-start;
+    justify-content: center;
+    height: 450px;
+    width: 100%;
+    z-index: 4;
+
+}
+.firstt{
+    height: 450px;
+    background-color: #000000;
+    width: 110%;
+    position: relative;
+    top: 10;
+}
+.secondd{
+    height: 450px;
+    background-color: #000000;
+    width: 180%;
+    position: relative;
+    top: 10;
+}
+.thirdd{
+    height: 450px;
+    background-color: #000000;
+    width: 110%;
+    position: relative;
+    top: 10;
+}
+.firstt img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+    left: 0;
+    position: absolute;
+    z-index: 5;
+}
+.secondd img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+    left: 0;
+    position: absolute;
+    z-index: 5;
+}
+.thirdd img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+    left: 0;
+    position: absolute;
+    z-index: 5;
+}
